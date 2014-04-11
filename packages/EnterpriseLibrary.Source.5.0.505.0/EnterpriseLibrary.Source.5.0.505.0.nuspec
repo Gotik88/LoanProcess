@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>EnterpriseLibrary.Source</id>
+    <version>5.0.505.0</version>
+    <title>Enterprise Library 5.0 - Source Code</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.opensource.org/licenses/ms-pl</licenseUrl>
+    <projectUrl>http://msdn.microsoft.com/en-us/library/ff632023.aspx</projectUrl>
+    <iconUrl>http://nuget.org/Media/Default/Packages/Unity/2.0/entlib_new_icon_100x100.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This is a source package for Microsoft Enterprise Library for you to customize, reuse and learn from. Install and unzip from the source subfolder of the corresponding package folder.</description>
+    <summary>This is a source package for Microsoft Enterprise Library for you to customize, reuse and learn from.</summary>
+    <tags>entlib Enterprise Library source code src LOB</tags>
+  </metadata>
+</package>

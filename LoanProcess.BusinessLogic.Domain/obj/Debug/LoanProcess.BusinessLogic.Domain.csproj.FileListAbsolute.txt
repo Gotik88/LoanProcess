@@ -1,0 +1,7 @@
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic.Domain\bin\Debug\LoanProcess.BusinessLogic.Domain.dll
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic.Domain\bin\Debug\LoanProcess.BusinessLogic.Domain.pdb
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic.Domain\obj\Debug\LoanProcess.BusinessLogic.Domain.csprojResolveAssemblyReference.cache
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic.Domain\obj\Debug\LoanProcess.BusinessLogic.Domain.dll
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic.Domain\obj\Debug\LoanProcess.BusinessLogic.Domain.pdb
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic.Domain\bin\Debug\LoanProcess.BusinessLogic.dll
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic.Domain\bin\Debug\LoanProcess.BusinessLogic.pdb

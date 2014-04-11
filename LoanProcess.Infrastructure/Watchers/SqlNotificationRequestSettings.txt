@@ -1,0 +1,24 @@
+﻿ALTER DATABASE AdventureWorks SET ENABLE_BROKER;
+
+GRANT SUBSCRIBE QUERY NOTIFICATIONS TO database_principal // set dabase permissions
+
+GRANT RECEIVE ON Table TO login // subscriber must have SEND/RECEIVE notification permissions 
+GRANT SEND ON SERVICE:://the service to login 
+
+// i should create Service,Queue and Procedure granted on database
+CREATE QUEUE PersonChangeMessages; 
+  
+CREATE SERVICE PersonChangeNotifications 
+  ON QUEUE PersonChangeMessages 
+([http://schemas.microsoft.com/SQL/Notifications/PostQueryNotification]); 
+
+
+<system.web>
+    <caching>
+        <sqlCacheDependency pollTime="10000" enabled="true" >
+            <databases>
+                <add connectionStringName="ConnectionString" name="School"/>
+            </databases>
+        </sqlCacheDependency>
+    </caching>lt;/caching>
+

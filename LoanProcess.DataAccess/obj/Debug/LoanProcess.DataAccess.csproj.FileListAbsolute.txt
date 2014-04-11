@@ -1,0 +1,2 @@
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.DataAccess\obj\Debug\LoanProcess.DataAccess.csprojResolveAssemblyReference.cache
+C:\Projects\LoanProcess\LoanProcess.DataAccess\obj\Debug\LoanProcess.DataAccess.csprojResolveAssemblyReference.cache
