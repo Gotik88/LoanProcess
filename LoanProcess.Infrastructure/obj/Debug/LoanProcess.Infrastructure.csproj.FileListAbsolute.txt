@@ -1,0 +1,5 @@
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.Infrastructure\bin\Debug\LoanProcess.Infrastructure.dll
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.Infrastructure\bin\Debug\LoanProcess.Infrastructure.pdb
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.Infrastructure\obj\Debug\LoanProcess.Infrastructure.dll
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.Infrastructure\obj\Debug\LoanProcess.Infrastructure.pdb
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.Infrastructure\obj\Debug\LoanProcess.Infrastructure.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.ServiceLayer\bin\Debug\LoanProcess.ServiceLayer.dll
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.ServiceLayer\bin\Debug\LoanProcess.ServiceLayer.pdb
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.ServiceLayer\obj\Debug\LoanProcess.ServiceLayer.dll
+C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.ServiceLayer\obj\Debug\LoanProcess.ServiceLayer.pdb
