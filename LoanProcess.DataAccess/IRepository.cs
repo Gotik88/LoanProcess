@@ -15,14 +15,16 @@ namespace LoanProcess.DataAccess
 
     public interface IRepository<T> where T : BaseEntity
     {
-        IQueryable<T> FindAll();
+        //IQueryable<T> FindAll();
 
-        T FindBy(Guid id);
+        //T FindBy(Guid id);
 
-        void Add(T entity);
+        //void Add(T entity);
 
-        void Save(T entity);
+        //void Save(T entity);
 
-        void Remove(T entity);
+        //void Remove(T entity);
+
+        void Insert(T entity);
     }
 }

@@ -166,3 +166,13 @@ C:\Projects\LoanProcess\LoanProcess.Web\bin\zh-Hant\System.Spatial.resources.dll
 C:\Projects\LoanProcess\LoanProcess.Web\obj\Debug\LoanProcess.UI.csprojResolveAssemblyReference.cache
 C:\Projects\LoanProcess\LoanProcess.Web\obj\Debug\MvcAuthentication.dll
 C:\Projects\LoanProcess\LoanProcess.Web\obj\Debug\MvcAuthentication.pdb
+C:\Projects\LoanProcess\LoanProcess.Web\bin\LoanProcess.BusinessLogic.dll
+C:\Projects\LoanProcess\LoanProcess.Web\bin\LoanProcess.BusinessLogic.Domain.dll
+C:\Projects\LoanProcess\LoanProcess.Web\bin\LoanProcess.Infrastructure.dll
+C:\Projects\LoanProcess\LoanProcess.Web\bin\LoanProcess.ServiceLayer.dll
+C:\Projects\LoanProcess\LoanProcess.Web\bin\LoanProcess.BusinessLogic.IDomainServices.dll
+C:\Projects\LoanProcess\LoanProcess.Web\bin\LoanProcess.BusinessLogic.Domain.pdb
+C:\Projects\LoanProcess\LoanProcess.Web\bin\LoanProcess.BusinessLogic.pdb
+C:\Projects\LoanProcess\LoanProcess.Web\bin\LoanProcess.Infrastructure.pdb
+C:\Projects\LoanProcess\LoanProcess.Web\bin\LoanProcess.ServiceLayer.pdb
+C:\Projects\LoanProcess\LoanProcess.Web\bin\LoanProcess.BusinessLogic.IDomainServices.pdb

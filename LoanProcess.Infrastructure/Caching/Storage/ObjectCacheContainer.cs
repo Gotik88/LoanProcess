@@ -51,7 +51,7 @@ namespace LoanProcess.Infrastructure.Caching.Storage
             return (T)storedItems;
         }
 
-        public override StoreResult Store(CacheItem cacheItem)
+        public virtual StoreResult Store(CacheItem cacheItem)
         {
             StoreResult result;
             LockObject.AcquireWriterLock(-1);

@@ -8,4 +8,3 @@ C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Infrastructure\bin\Debug\LoanP
 C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Infrastructure\bin\Debug\LoanProcess.BusinessLogic.pdb
 C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Infrastructure\obj\Debug\LoanProcess.BusinessLogic.dll
 C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Infrastructure\obj\Debug\LoanProcess.BusinessLogic.pdb
-C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Infrastructure\obj\Debug\LoanProcess.BusinessLogic.Infrastructure.csprojResolveAssemblyReference.cache

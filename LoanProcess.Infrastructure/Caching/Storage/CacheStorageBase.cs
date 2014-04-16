@@ -34,7 +34,10 @@ namespace LoanProcess.Infrastructure.Caching.Storage
 
         public abstract void Remove(string key);
 
-        public abstract StoreResult Store(CacheItem cacheItem);
+        public virtual StoreResult Store(CacheItem cacheItem)
+        {
+            return StoreResult.Failure;
+        }
 
         public abstract void Flush();
 

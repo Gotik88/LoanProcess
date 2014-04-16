@@ -38,7 +38,7 @@ namespace LoanProcess.BusinessLogic.DomainServices
         {
             using (var tx = TransactQueryScope.Create(true))
             {
-                _loanRepository.Add(loan);
+                _loanRepository.Insert(loan);
                 ValidationHelper.ThrowExceptionIfInvalid(loan);
 
                 tx.ExecutionContext.CompleteExecute();

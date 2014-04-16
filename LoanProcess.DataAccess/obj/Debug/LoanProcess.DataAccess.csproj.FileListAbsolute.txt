@@ -1,2 +1,25 @@
 C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.DataAccess\obj\Debug\LoanProcess.DataAccess.csprojResolveAssemblyReference.cache
 C:\Projects\LoanProcess\LoanProcess.DataAccess\obj\Debug\LoanProcess.DataAccess.csprojResolveAssemblyReference.cache
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\LoanProcess.DataAccess.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\LoanProcess.DataAccess.pdb
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\EntityFramework.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\LoanProcess.BusinessLogic.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\LoanProcess.BusinessLogic.Domain.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\System.ServiceModel.DomainServices.Client.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\LoanProcess.BusinessLogic.Domain.pdb
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\LoanProcess.BusinessLogic.pdb
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\EntityFramework.xml
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\System.ServiceModel.DomainServices.Client.xml
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\de\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\es\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\fr\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\it\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\ja\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\ko\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\ru\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\zh-Hans\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\bin\Debug\zh-Hant\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\obj\Debug\LoanProcess.DataAccess.dll
+C:\Projects\LoanProcess\LoanProcess.DataAccess\obj\Debug\LoanProcess.DataAccess.pdb
