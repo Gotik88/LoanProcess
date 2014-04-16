@@ -1,4 +1,0 @@
-C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic\bin\Debug\LoanProcess.BusinessLogic.dll
-C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic\bin\Debug\LoanProcess.BusinessLogic.pdb
-C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic\obj\Debug\LoanProcess.BusinessLogic.dll
-C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic\obj\Debug\LoanProcess.BusinessLogic.pdb
