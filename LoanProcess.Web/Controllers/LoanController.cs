@@ -28,6 +28,7 @@ namespace MvcAuthentication.Controllers
             {
                 var response = _serviceFactory.ProcessRequest<GetLoansRequest, GetLoansResponse>(new GetLoansRequest());
 
+
                 return response.Loans;
             });
 
