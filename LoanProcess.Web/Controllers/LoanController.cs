@@ -27,7 +27,7 @@ namespace MvcAuthentication.Controllers
             var loanModel = _cacheManager.Get(CacheKeyBuilder.GetKey(), () =>
             {
                 var response = _serviceFactory.ProcessRequest<GetLoansRequest, GetLoansResponse>(new GetLoansRequest());
-
+                var ffff = 4;
 
                 return response.Loans;
             });
