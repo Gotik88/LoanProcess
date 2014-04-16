@@ -39,12 +39,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Messages\Loan\GetLoanRequest.cs" />
-    <Compile Include="Messages\Loan\GetLoanResponse.cs" />
+    <Compile Include="Handlers\GetLoansHandler.cs" />
+    <Compile Include="IRequestData.cs" />
+    <Compile Include="IRequestHandler.cs" />
+    <Compile Include="IRequestResponseFactory.cs" />
+    <Compile Include="Messages\Loan\GetLoansRequest.cs" />
+    <Compile Include="Messages\Loan\GetLoansResponse.cs" />
     <Compile Include="Messages\ResponseBase.cs" />
-    <Compile Include="Models\LoanView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestResponseFactory.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoanProcess.BusinessLogic.Domain\LoanProcess.BusinessLogic.Domain.csproj">
+      <Project>{56770a16-1456-4b44-a0a9-879f2b3bf270}</Project>
+      <Name>LoanProcess.BusinessLogic.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanProcess.BusinessLogic.IDomainServices\LoanProcess.BusinessLogic.IDomainServices.csproj">
+      <Project>{f4f8aa3d-4c6c-48ca-85f0-a5582cabf01b}</Project>
+      <Name>LoanProcess.BusinessLogic.IDomainServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanProcess.BusinessLogic.Infrastructure\LoanProcess.BusinessLogic.Infrastructure.csproj">
+      <Project>{f18c1092-f1fc-4f89-9da5-91c00482deb4}</Project>
+      <Name>LoanProcess.BusinessLogic.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

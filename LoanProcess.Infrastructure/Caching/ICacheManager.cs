@@ -4,35 +4,23 @@
 // </copyright>
 // ============================================================================
 
-using System;
-using System.ComponentModel;
-
 namespace LoanProcess.Infrastructure.Caching
 {
-    public interface ICacheManager
+    using System;
+    using LoanProcess.Infrastructure.Caching.Expiration;
+
+    public abstract class CacheManagerBase
     {
-        ////ICacheContainer Container { get; }
+        internal abstract CacheItem Add(string key, object value, params ICacheExpiration[] expirations);
 
-        /*object this[string key] { get; }
+        internal abstract bool Contains(string key);
 
-        void Add(string key, object value);
+        internal abstract void Clear();
 
-        void Add(string key, object value, CacheItemPriority scavengingPriority);
+        internal abstract CacheItem Get<T>(string key);
 
-        bool Contains(string key);
+        internal abstract void Remove(string key);
 
-        int CacheItemsCount { get; }
-
-        void Flush();
-
-        object Get(string key);
-
-        void Remove(string key);
-
-        void RemoveByCondition(Func<CacheItem> predicate);*/
-
-        object Get(string key);
-
-        bool Contains(string key);
+        internal abstract void RemoveByCondition(Func<CacheItem> predicate);
     }
 }

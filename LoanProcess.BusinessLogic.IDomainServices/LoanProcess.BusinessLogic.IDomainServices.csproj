@@ -50,6 +50,10 @@
       <Project>{56770a16-1456-4b44-a0a9-879f2b3bf270}</Project>
       <Name>LoanProcess.BusinessLogic.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LoanProcess.BusinessLogic.Infrastructure\LoanProcess.BusinessLogic.Infrastructure.csproj">
+      <Project>{f18c1092-f1fc-4f89-9da5-91c00482deb4}</Project>
+      <Name>LoanProcess.BusinessLogic.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

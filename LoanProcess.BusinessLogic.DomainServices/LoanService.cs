@@ -4,6 +4,8 @@
 // </copyright>
 // ============================================================================
 
+using System.Collections.Generic;
+
 namespace LoanProcess.BusinessLogic.DomainServices
 {
     using LoanProcess.BusinessLogic.BusinessRules;
@@ -20,6 +22,16 @@ namespace LoanProcess.BusinessLogic.DomainServices
         public LoanService(IRepository<Loan> loanRepository)
         {
             this._loanRepository = loanRepository;
+        }
+
+        public IList<Loan> GetLoans()
+        {
+            return new List<Loan>();
+        }
+
+        public Loan GetLoanById(int loanId)
+        {
+            return new Loan();
         }
 
         public void InsertLoan(Loan loan)

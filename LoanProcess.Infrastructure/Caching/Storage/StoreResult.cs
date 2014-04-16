@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// ============================================================================
+// <copyright file="StoreResult.cs" company="Dmytro Romanii">
+//   Copyright (c) Dmytro Romanii 2014. All rights reserved.
+// </copyright>
+// ============================================================================
 
 namespace LoanProcess.Infrastructure.Caching.Storage
 {

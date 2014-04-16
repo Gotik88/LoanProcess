@@ -6,10 +6,15 @@
 
 namespace LoanProcess.BusinessLogic.IDomainServices
 {
+    using System.Collections.Generic;
     using LoanProcess.BusinessLogic.Domain;
 
     public interface ILoanService
     {
+        Loan GetLoanById(int loanId);
+
+        IList<Loan> GetLoans();
+
         void InsertLoan(Loan loan);
 
         void UpdateLoan(Loan loan);

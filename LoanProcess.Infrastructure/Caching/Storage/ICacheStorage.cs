@@ -1,8 +1,10 @@
-﻿
+﻿// ============================================================================
+// <copyright file="ICacheStorage.cs" company="Dmytro Romanii">
+//   Copyright (c) Dmytro Romanii 2014. All rights reserved.
+// </copyright>
+// ============================================================================
 
-using LoanProcess.Infrastructure.Caching.Storage;
-
-namespace LoanProcess.Infrastructure.Caching
+namespace LoanProcess.Infrastructure.Caching.Storage
 {
     using System;
 

@@ -7,3 +7,9 @@ C:\Projects\LoanProcess\LoanProcess.ServiceLayer\bin\Debug\LoanProcess.ServiceLa
 C:\Projects\LoanProcess\LoanProcess.ServiceLayer\obj\Debug\LoanProcess.Services.csprojResolveAssemblyReference.cache
 C:\Projects\LoanProcess\LoanProcess.ServiceLayer\obj\Debug\LoanProcess.ServiceLayer.dll
 C:\Projects\LoanProcess\LoanProcess.ServiceLayer\obj\Debug\LoanProcess.ServiceLayer.pdb
+C:\Projects\LoanProcess\LoanProcess.ServiceLayer\bin\Debug\LoanProcess.BusinessLogic.dll
+C:\Projects\LoanProcess\LoanProcess.ServiceLayer\bin\Debug\LoanProcess.BusinessLogic.Domain.dll
+C:\Projects\LoanProcess\LoanProcess.ServiceLayer\bin\Debug\LoanProcess.BusinessLogic.IDomainServices.dll
+C:\Projects\LoanProcess\LoanProcess.ServiceLayer\bin\Debug\LoanProcess.BusinessLogic.Domain.pdb
+C:\Projects\LoanProcess\LoanProcess.ServiceLayer\bin\Debug\LoanProcess.BusinessLogic.IDomainServices.pdb
+C:\Projects\LoanProcess\LoanProcess.ServiceLayer\bin\Debug\LoanProcess.BusinessLogic.pdb

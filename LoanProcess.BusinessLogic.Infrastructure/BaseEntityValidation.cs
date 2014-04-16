@@ -6,17 +6,15 @@
 
 namespace LoanProcess.BusinessLogic
 {
-    using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.Linq;
     using System.Reflection;
     using System.Runtime.Serialization;
-    using System.ServiceModel.DomainServices.Client;
 
     using LoanProcess.BusinessLogic.BusinessRules;
 
-    public abstract partial class BaseEntity : Entity
+    public abstract partial class BaseEntity ////: Entity
     {
         private readonly List<BusinessRule> _brokenRules = new List<BusinessRule>();
 
@@ -75,7 +73,7 @@ namespace LoanProcess.BusinessLogic
             {
                 if (_validationErrors.All(x => x.PropertyName != property.Name))
                 {
-                    ValidateProperty(property.Name, property.GetValue(this, new object[0]));
+                    ////ValidateProperty(property.Name, property.GetValue(this, new object[0]));
                 }
             }
 

@@ -1,1 +1,7 @@
 C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Domain\obj\Debug\LoanProcess.BusinessLogic.Domain.csprojResolveAssemblyReference.cache
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Domain\bin\Debug\LoanProcess.BusinessLogic.Domain.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Domain\bin\Debug\LoanProcess.BusinessLogic.Domain.pdb
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Domain\bin\Debug\LoanProcess.BusinessLogic.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Domain\bin\Debug\LoanProcess.BusinessLogic.pdb
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Domain\obj\Debug\LoanProcess.BusinessLogic.Domain.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.Domain\obj\Debug\LoanProcess.BusinessLogic.Domain.pdb

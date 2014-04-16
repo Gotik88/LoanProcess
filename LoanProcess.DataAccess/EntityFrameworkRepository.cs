@@ -4,6 +4,8 @@
 // </copyright>
 // ============================================================================
 
+using LoanProcess.BusinessLogic;
+
 namespace LoanProcess.DataAccess
 {
     using System;

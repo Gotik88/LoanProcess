@@ -157,6 +157,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\LoanController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -164,6 +165,9 @@
     <Compile Include="Helpers\UrlHelper.cs" />
     <Compile Include="Models\Authentication\LoginModel.cs" />
     <Compile Include="Models\Authentication\RegisterModel.cs" />
+    <Compile Include="Models\BaseViewModel.cs" />
+    <Compile Include="Models\Loan\LoanListViewModel.cs" />
+    <Compile Include="Models\Loan\LoanViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -175,6 +179,7 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\Wizzard.cshtml" />
+    <Content Include="Views\Loan\List.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -184,6 +189,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="WebConfig\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoanProcess.Infrastructure\LoanProcess.Infrastructure.csproj">
+      <Project>{461552db-7f9c-4979-80b0-11566d5a7a7e}</Project>
+      <Name>LoanProcess.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanProcess.ServiceLayer\LoanProcess.Services.csproj">
+      <Project>{e7a957d9-5c5a-4e75-b35e-3d8a557d743f}</Project>
+      <Name>LoanProcess.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

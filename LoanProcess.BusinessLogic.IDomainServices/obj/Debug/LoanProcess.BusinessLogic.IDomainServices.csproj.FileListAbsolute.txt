@@ -6,3 +6,22 @@ C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.
 C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic.IDomainServices\obj\Debug\LoanProcess.BusinessLogic.IDomainServices.dll
 C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic.IDomainServices\obj\Debug\LoanProcess.BusinessLogic.IDomainServices.pdb
 C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\obj\Debug\LoanProcess.BusinessLogic.IDomainServices.csprojResolveAssemblyReference.cache
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\LoanProcess.BusinessLogic.IDomainServices.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\LoanProcess.BusinessLogic.IDomainServices.pdb
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\LoanProcess.BusinessLogic.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\LoanProcess.BusinessLogic.Domain.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\System.ServiceModel.DomainServices.Client.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\LoanProcess.BusinessLogic.Domain.pdb
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\LoanProcess.BusinessLogic.pdb
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\System.ServiceModel.DomainServices.Client.xml
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\de\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\es\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\fr\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\it\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\ja\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\ko\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\ru\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\zh-Hans\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\bin\Debug\zh-Hant\System.ServiceModel.DomainServices.Client.resources.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\obj\Debug\LoanProcess.BusinessLogic.IDomainServices.dll
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.IDomainServices\obj\Debug\LoanProcess.BusinessLogic.IDomainServices.pdb

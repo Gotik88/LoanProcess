@@ -1,13 +1,17 @@
-﻿
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Caching;
+﻿// ============================================================================
+// <copyright file="HttpContextCacheStorage.cs" company="Dmytro Romanii">
+//   Copyright (c) Dmytro Romanii 2014. All rights reserved.
+// </copyright>
+// ============================================================================
 
 namespace LoanProcess.Infrastructure.Caching.Storage
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Web;
+    using System.Web.Caching;
+
     internal class HttpContextCacheStorage : CacheStorageBase
     {
         public HttpContextCacheStorage(long maxSize = 0)

@@ -1,2 +1,3 @@
 C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic.InternalServices\obj\Debug\LoanProcess.BusinessLogic.DomainServices.csprojResolveAssemblyReference.cache
 C:\Projects\Portfolio Projects\MVC Authentication\MvcAuthentication\LoanProcess.BusinessLogic.DomainServices\obj\Debug\LoanProcess.BusinessLogic.DomainServices.csprojResolveAssemblyReference.cache
+C:\Projects\LoanProcess\LoanProcess.BusinessLogic.DomainServices\obj\Debug\LoanProcess.BusinessLogic.DomainServices.csprojResolveAssemblyReference.cache

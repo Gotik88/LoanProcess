@@ -46,31 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Caching\BaseCacheManager.cs" />
+    <Compile Include="Caching\CacheKeyBuilder.cs" />
+    <Compile Include="Caching\CacheManager.cs" />
+    <Compile Include="Caching\Expiration\CacheExtensions.cs" />
     <Compile Include="Caching\CacheItemType.cs" />
-    <Compile Include="Caching\RefreshCache\CacheExpirationPolicy.cs" />
-    <Compile Include="Caching\RefreshCache\CacheItemExpirationsFactory.cs" />
-    <Compile Include="Caching\RefreshCache\Expiration\CacheDependencyChangedEventArgs.cs" />
-    <Compile Include="Caching\RefreshCache\Expiration\NotificationExpiration\CacheDependencyChangeTypes.cs" />
-    <Compile Include="Caching\RefreshCache\Expiration\NotificationExpiration\MessageModel.cs" />
-    <Compile Include="Caching\RefreshCache\Expiration\NotificationExpiration\SqlDbCacheListiner.cs" />
-    <Compile Include="Caching\RefreshCache\Expiration\NotificationExpiration\SqlNotifier.cs" />
+    <Compile Include="Caching\Expiration\CacheItemExpirationsFactory.cs" />
+    <Compile Include="Caching\Expiration\CacheDependencyChangedEventArgs.cs" />
+    <Compile Include="Caching\Expiration\CacheDependencyChangeTypes.cs" />
+    <Compile Include="Caching\MessageModel.cs" />
+    <Compile Include="Caching\Expiration\SqlDbCacheListiner.cs" />
+    <Compile Include="Caching\Expiration\SqlNotifier.cs" />
     <Compile Include="Caching\Storage\CacheStorageBase.cs" />
     <Compile Include="Caching\Storage\StoreResult.cs" />
     <Compile Include="FileSystemNotification.cs" />
-    <Compile Include="Caching\RefreshCache\Expiration\TimeExpiration\AbsoluteTimeExpiration.cs" />
-    <Compile Include="Caching\RefreshCache\Expiration\NotificationExpiration\CacheDependencyListenerBase.cs" />
-    <Compile Include="Caching\RefreshCache\Expiration\TimeExpiration\SlidingTimeExpiration.cs" />
-    <Compile Include="Caching\RefreshCache\CacheFlushingPolicy.cs" />
-    <Compile Include="Caching\RefreshCache\Expiration\ICacheExpiration.cs" />
-    <Compile Include="Caching\RefreshCache\ICacheRefresher.cs" />
-    <Compile Include="Caching\RefreshCache\ICacheRefreshPolicy.cs" />
-    <Compile Include="Caching\RefreshCache\Expiration\TimeExpiration\TimeBasedExpiration.cs" />
+    <Compile Include="Caching\Expiration\AbsoluteTimeExpiration.cs" />
+    <Compile Include="Caching\Expiration\CacheDependencyListenerBase.cs" />
+    <Compile Include="Caching\Expiration\SlidingTimeExpiration.cs" />
+    <Compile Include="Caching\Expiration\ICacheExpiration.cs" />
     <Compile Include="Caching\CacheItem.cs" />
     <Compile Include="Caching\CacheItemPriority.cs" />
-    <Compile Include="Caching\Container\ObjectCacheContainer.cs" />
+    <Compile Include="Caching\Storage\ObjectCacheContainer.cs" />
     <Compile Include="Caching\ICacheContainer.cs" />
-    <Compile Include="Caching\ICacheGonePolicy.cs" />
+    <Compile Include="Caching\Flushing\ICacheGonePolicy.cs" />
     <Compile Include="Caching\ICacheManager.cs" />
     <Compile Include="Caching\Storage\ICacheStorage.cs" />
     <Compile Include="Caching\IntermediateCache.cs" />
@@ -100,20 +97,16 @@
     <Compile Include="UnitOfWork\TransactQueryScope.cs" />
     <Compile Include="UnitOfWork\TransactQueryScopeProvider.cs" />
     <Compile Include="UnitOfWork\TransactQueryScopeProviderXmlConfigurator.cs" />
-    <Compile Include="Watchers\FileSystemCacheWatcher.cs" />
-    <Compile Include="Watchers\IListiner.cs" />
-    <Compile Include="Watchers\IWather.cs" />
-    <Compile Include="Watchers\SqlDependencyCacheWatcher.cs" />
-    <Compile Include="Watchers\SqlNotificationRequestCacheListiner.cs" />
-    <Compile Include="Watchers\SqlNotificationRequestListenerBase.cs" />
-    <Compile Include="Watchers\SqlNotificationRequestQueryBuilder.cs" />
+    <Compile Include="Caching\Expiration\FileSystemCacheWatcher.cs" />
+    <Compile Include="Caching\Expiration\IListiner.cs" />
+    <Compile Include="Caching\Expiration\IWather.cs" />
+    <Compile Include="Caching\Expiration\SqlDependencyCacheWatcher.cs" />
+    <Compile Include="SqlNotificationRequest\SqlNotificationRequestListenerBase.cs" />
+    <Compile Include="SqlNotificationRequest\SqlNotificationRequestQueryBuilder.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Caching\RefreshCache\Flushing\" />
-    <Folder Include="Container\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Watchers\SqlNotificationRequestSettings.txt" />
+    <Content Include="SqlNotificationRequest\SqlNotificationRequestSettings.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

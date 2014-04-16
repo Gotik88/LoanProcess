@@ -19,7 +19,7 @@ namespace LoanProcess.BusinessLogic.DomainEvents
         [ThreadStatic] //so that each thread has its own callbacks
         private static List<Delegate> actions;
 
-        public IContainer Container { get; set; } //as before
+        // public IContainer Container { get; set; } //as before
 
         //Registers a callback for the given domain event
         public static void Register<T>(Action<T> callback) where T : IDomainEvent
@@ -39,21 +39,21 @@ namespace LoanProcess.BusinessLogic.DomainEvents
         //Raises the given domain event
         public static void Raise<T>(T args) where T : IDomainEvent
         {
-            foreach (var handler in Container.ResolveAll<Handles<T>>())
-            {
-                handler.Handle(args);
-            }
+            /*  foreach (var handler in Container.ResolveAll<Handles<T>>())
+              {
+                  handler.Handle(args);
+              }
 
-            if (actions != null)
-            {
-                foreach (var action in actions)
-                {
-                    if (action is Action<T>)
-                    {
-                        ((Action<T>)action)(args);
-                    }
-                }
-            }
+              if (actions != null)
+              {
+                  foreach (var action in actions)
+                  {
+                      if (action is Action<T>)
+                      {
+                          ((Action<T>)action)(args);
+                      }
+                  }
+              }*/
         }
     }
 }

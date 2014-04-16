@@ -1,31 +1,37 @@
-﻿
+﻿// ============================================================================
+// <copyright file="CacheItem.cs" company="Dmytro Romanii">
+//   Copyright (c) Dmytro Romanii 2014. All rights reserved.
+// </copyright>
+// ============================================================================
 
 namespace LoanProcess.Infrastructure.Caching
 {
     using System;
-
     using System.Linq;
-    using LoanProcess.Infrastructure.Caching.RefreshCache;
     using System.Collections.Generic;
 
-    using System.Collections;
-    using LoanProcess.Infrastructure.Caching.CacheGone;
+    using LoanProcess.Infrastructure.Caching.Expiration;
 
     public class CacheItem
     {
-        public CacheItem(string key, object value)
+        public CacheItem(string key, object value, params ICacheExpiration[] expirations)
         {
             Key = key;
             Value = value;
             LastAccessedTime = DateTime.Now;
 
-            InitializeExpirations();
+            InitializeExpirations(expirations);
             InitializeFlushing();
         }
 
-        internal void Replace(object value)
+        public void AddExpiration(ICacheExpiration expiration)
         {
-            InitializeExpirations();
+            Expirations.Add(expiration);
+        }
+
+        public void AddExpirations(ICacheExpiration[] expirations)
+        {
+            expirations.ToList().ForEach(AddExpiration);
         }
 
         public object Value { get; private set; }
@@ -59,9 +65,9 @@ namespace LoanProcess.Infrastructure.Caching
             return CacheItemType.Object;
         }
 
-        private void InitializeExpirations()
+        private void InitializeExpirations(ICacheExpiration[] expirations)
         {
-            Expirations = CacheItemExpirationsFactory.GetCacheExpirations(this);
+            Expirations = expirations.Any() ? expirations : CacheItemExpirationsFactory.GetCacheExpirations(this);
         }
 
         private void InitializeFlushing()
