@@ -14,7 +14,7 @@ namespace LoanProcess.BusinessLogic
 
     using LoanProcess.BusinessLogic.BusinessRules;
 
-    public abstract partial class BaseEntity ////: Entity
+    public abstract partial class BaseEntity
     {
         private readonly List<BusinessRule> _brokenRules = new List<BusinessRule>();
 

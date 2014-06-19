@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FB731B
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanProcess.WebAPI", "LoanProcess.WebAPI\LoanProcess.WebAPI.csproj", "{31E948B7-7D31-43CA-A8DD-B496A1593F24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,12 +70,17 @@ Global
 		{F4F8AA3D-4C6C-48CA-85F0-A5582CABF01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4F8AA3D-4C6C-48CA-85F0-A5582CABF01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4F8AA3D-4C6C-48CA-85F0-A5582CABF01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E948B7-7D31-43CA-A8DD-B496A1593F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E948B7-7D31-43CA-A8DD-B496A1593F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E948B7-7D31-43CA-A8DD-B496A1593F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E948B7-7D31-43CA-A8DD-B496A1593F24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{555B9145-F411-4F5A-B680-68989061A63A} = {A1887E7D-28CD-4554-A6D7-F813044B03B2}
+		{31E948B7-7D31-43CA-A8DD-B496A1593F24} = {A1887E7D-28CD-4554-A6D7-F813044B03B2}
 		{E7A957D9-5C5A-4E75-B35E-3D8A557D743F} = {E77035C7-F406-4FBC-91B4-FFAE2C24CFD2}
 		{F18C1092-F1FC-4F89-9DA5-91C00482DEB4} = {BECC2439-8968-4047-BE31-9EE0787D342F}
 		{445B356B-06CE-483A-8CDE-48CFBB30FAC1} = {BECC2439-8968-4047-BE31-9EE0787D342F}
